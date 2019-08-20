@@ -10,11 +10,11 @@ export default function CharacterCard(props) {
           <p>{props.value.name}</p>
         </Card.Header>
         <Card.Meta>
-          <span>{props.value.species}</span><span>{props.value.status}</span>
+          <span>{props.value.species}</span>(<span>{props.value.status}</span>)
         </Card.Meta>
         <Card.Description>
-          <p>{props.value.location.name}<br />
-          {props.value.origin.name}</p>
+          <p>Location: {props.value.location.name}<br />
+          Origin: {props.value.origin.name}</p>
         </Card.Description>
       </Card.Content>
       <Card.Content extra>
