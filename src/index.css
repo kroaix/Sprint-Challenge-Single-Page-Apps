@@ -18,6 +18,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .page-view {
@@ -36,4 +38,13 @@ main {
 
 header h1 {
   text-align: center;
+  padding-bottom: 20px;
+}
+.ui.two.cards{
+  padding: 10px 40px;
+  
+}
+.ui.two.cards>.card{
+  width: 45%;
+  margin: 15px auto;
 }
